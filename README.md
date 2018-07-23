@@ -13,5 +13,5 @@ docker run --rm \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
   -u $(id -u) \
   -v ${HOME}:${HOME}
-  dmitryrck/gimp gimp
+  dmitryrck/gimp-extras gimp
 ```
